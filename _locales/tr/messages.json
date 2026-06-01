@@ -1,0 +1,195 @@
+{
+  "extensionName": {
+    "message": "Cookie Knight"
+  },
+  "extensionDescription": {
+    "message": "Cookie Knight: İstenmeyen çerezleri kaldırın"
+  },
+  "popupTitle": {
+    "message": "Cookie Knight"
+  },
+  "protected": {
+    "message": "Whitelist'te"
+  },
+  "notProtected": {
+    "message": "Otomatik temizleme açık"
+  },
+  "cookiesActive": {
+    "message": "$COUNT$ aktif çerez",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "noCookies": {
+    "message": "Aktif çerez yok"
+  },
+  "cookies": {
+    "message": "Çerezler"
+  },
+  "emptyCookies": {
+    "message": "Bu sekmede çerez yok."
+  },
+  "removeCookie": {
+    "message": "Çerezi sil"
+  },
+  "removeAllCookies": {
+    "message": "Tümünü sil"
+  },
+  "unnamedCookie": {
+    "message": "Adsız çerez"
+  },
+  "emptyValue": {
+    "message": "Boş değer"
+  },
+  "statsTotalCookiesRemoved": {
+    "message": "Kurulumdan beri silinen çerez: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "Sıfırla"
+  },
+  "backup": {
+    "message": "Yedek"
+  },
+  "exportSettings": {
+    "message": "Ayarları dışa aktar"
+  },
+  "importSettings": {
+    "message": "Ayarları içe aktar"
+  },
+  "exportWhitelist": {
+    "message": "Whitelist'i dışa aktar"
+  },
+  "importWhitelist": {
+    "message": "Whitelist'i içe aktar"
+  },
+  "siteDomain": {
+    "message": "Alan adı"
+  },
+  "subdomain": {
+    "message": "Alt alan adı"
+  },
+  "add": {
+    "message": "Ekle"
+  },
+  "remove": {
+    "message": "Sil"
+  },
+  "manualAdd": {
+    "message": "Manuel ekle"
+  },
+  "addDomainToWhitelist": {
+    "message": "Alan adını whitelist'e ekle"
+  },
+  "removeDomainFromWhitelist": {
+    "message": "Alan adını whitelist'ten sil"
+  },
+  "manualPlaceholder": {
+    "message": "example.com veya *.example.com"
+  },
+  "whitelist": {
+    "message": "Whitelist"
+  },
+  "emptyWhitelist": {
+    "message": "Henüz kayıtlı alan adı yok."
+  },
+  "openOptions": {
+    "message": "Ayarları aç"
+  },
+  "settingsTitle": {
+    "message": "Ayarlar"
+  },
+  "settingsSubtitle": {
+    "message": "Cookie Knight'un çerezleri, storage'ı, whitelist kurallarını ve araç çubuğu düğmesini nasıl yöneteceğini seçin."
+  },
+  "iconTheme": {
+    "message": "Araç çubuğu simgesi"
+  },
+  "light": {
+    "message": "Açık"
+  },
+  "dark": {
+    "message": "Koyu"
+  },
+  "contextMenu": {
+    "message": "Bağlam menüsü"
+  },
+  "contextMenuDescription": {
+    "message": "Geçerli alan adını whitelist'e eklemek için sayfa menüsü öğesi göster."
+  },
+  "quickAction": {
+    "message": "Simge tıklaması"
+  },
+  "quickActionDescription": {
+    "message": "Popup açmadan geçerli siteyi whitelist'e hemen ekle veya sil."
+  },
+  "clearLocalStorage": {
+    "message": "LocalStorage temizleme"
+  },
+  "clearLocalStorageDescription": {
+    "message": "Etkilenen site için çerezlerle birlikte localStorage'ı temizle."
+  },
+  "clearCookiesOnStartup": {
+    "message": "Başlangıç temizliği"
+  },
+  "clearCookiesOnStartupDescription": {
+    "message": "Chrome başlarken whitelist kapsamında olmayan çerezleri sil."
+  },
+  "removePartitionedCookies": {
+    "message": "İlgili izole çerezler"
+  },
+  "removePartitionedCookiesDescription": {
+    "message": "Whitelist'te olmayan bir siteye bağlı üçüncü taraf partitioned çerezleri de sil."
+  },
+  "cleanupDelay": {
+    "message": "Temizleme gecikmesi"
+  },
+  "cleanupDelayDescription": {
+    "message": "Bir sitenin son sekmesi kapandıktan sonra çerezleri silmeden önce beklenecek süre."
+  },
+  "seconds": {
+    "message": "saniye"
+  },
+  "enabled": {
+    "message": "Açık"
+  },
+  "disabled": {
+    "message": "Kapalı"
+  },
+  "save": {
+    "message": "Kaydet"
+  },
+  "saved": {
+    "message": "Kaydedildi"
+  },
+  "addCurrentDomain": {
+    "message": "Alan adını whitelist'e ekle"
+  },
+  "addCurrentSubdomain": {
+    "message": "Alt alan adını whitelist'e ekle"
+  },
+  "contextAddDomain": {
+    "message": "Alan adını whitelist'e ekle"
+  },
+  "contextRemoveDomain": {
+    "message": "Alan adını whitelist'ten sil"
+  },
+  "contextRemoveCookies": {
+    "message": "Bu sekmenin çerezlerini sil"
+  },
+  "toggleCurrentSiteCommand": {
+    "message": "Geçerli siteyi Cookie Knight whitelist'ine ekle veya sil"
+  },
+  "invalidPattern": {
+    "message": "Geçerli bir alan adı veya wildcard deseni girin."
+  },
+  "removeItem": {
+    "message": "Sil"
+  }
+}

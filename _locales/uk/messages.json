@@ -1,0 +1,195 @@
+{
+  "extensionName": {
+    "message": "Cookie Knight"
+  },
+  "extensionDescription": {
+    "message": "Cookie Knight: Видаляйте небажані cookies"
+  },
+  "popupTitle": {
+    "message": "Cookie Knight"
+  },
+  "protected": {
+    "message": "У whitelist"
+  },
+  "notProtected": {
+    "message": "Автоочищення увімкнено"
+  },
+  "cookiesActive": {
+    "message": "$COUNT$ активних cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "noCookies": {
+    "message": "Немає активних cookies"
+  },
+  "cookies": {
+    "message": "Cookies"
+  },
+  "emptyCookies": {
+    "message": "У цій вкладці немає cookies."
+  },
+  "removeCookie": {
+    "message": "Видалити cookie"
+  },
+  "removeAllCookies": {
+    "message": "Видалити всі"
+  },
+  "unnamedCookie": {
+    "message": "Cookie без назви"
+  },
+  "emptyValue": {
+    "message": "Порожнє значення"
+  },
+  "statsTotalCookiesRemoved": {
+    "message": "Видалено cookies з моменту встановлення: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "Скинути"
+  },
+  "backup": {
+    "message": "Резервна копія"
+  },
+  "exportSettings": {
+    "message": "Експорт налаштувань"
+  },
+  "importSettings": {
+    "message": "Імпорт налаштувань"
+  },
+  "exportWhitelist": {
+    "message": "Експорт whitelist"
+  },
+  "importWhitelist": {
+    "message": "Імпорт whitelist"
+  },
+  "siteDomain": {
+    "message": "Домен"
+  },
+  "subdomain": {
+    "message": "Піддомен"
+  },
+  "add": {
+    "message": "Додати"
+  },
+  "remove": {
+    "message": "Видалити"
+  },
+  "manualAdd": {
+    "message": "Додати вручну"
+  },
+  "addDomainToWhitelist": {
+    "message": "Додати домен у whitelist"
+  },
+  "removeDomainFromWhitelist": {
+    "message": "Видалити домен із whitelist"
+  },
+  "manualPlaceholder": {
+    "message": "example.com або *.example.com"
+  },
+  "whitelist": {
+    "message": "Whitelist"
+  },
+  "emptyWhitelist": {
+    "message": "Поки немає збережених доменів."
+  },
+  "openOptions": {
+    "message": "Відкрити налаштування"
+  },
+  "settingsTitle": {
+    "message": "Налаштування"
+  },
+  "settingsSubtitle": {
+    "message": "Налаштуйте правила cookies, storage, whitelist і поведінку кнопки на панелі."
+  },
+  "iconTheme": {
+    "message": "Іконка на панелі"
+  },
+  "light": {
+    "message": "Світла"
+  },
+  "dark": {
+    "message": "Темна"
+  },
+  "contextMenu": {
+    "message": "Контекстне меню"
+  },
+  "contextMenuDescription": {
+    "message": "Показувати пункт меню для додавання поточного домену в whitelist."
+  },
+  "quickAction": {
+    "message": "Клік по іконці"
+  },
+  "quickActionDescription": {
+    "message": "Одразу додавати або видаляти поточний сайт із whitelist, не відкриваючи popup."
+  },
+  "clearLocalStorage": {
+    "message": "Очищення LocalStorage"
+  },
+  "clearLocalStorageDescription": {
+    "message": "Очищати localStorage разом із cookies для відповідного сайту."
+  },
+  "clearCookiesOnStartup": {
+    "message": "Очищення під час запуску"
+  },
+  "clearCookiesOnStartupDescription": {
+    "message": "Видаляти cookies не з whitelist під час запуску Chrome."
+  },
+  "removePartitionedCookies": {
+    "message": "Пов'язані ізольовані cookies"
+  },
+  "removePartitionedCookiesDescription": {
+    "message": "Видаляти сторонні partitioned cookies, пов'язані із сайтом не з whitelist."
+  },
+  "cleanupDelay": {
+    "message": "Затримка очищення"
+  },
+  "cleanupDelayDescription": {
+    "message": "Скільки чекати перед видаленням cookies після закриття останньої вкладки сайту."
+  },
+  "seconds": {
+    "message": "секунд"
+  },
+  "enabled": {
+    "message": "Увімкнено"
+  },
+  "disabled": {
+    "message": "Вимкнено"
+  },
+  "save": {
+    "message": "Зберегти"
+  },
+  "saved": {
+    "message": "Збережено"
+  },
+  "addCurrentDomain": {
+    "message": "Додати домен у whitelist"
+  },
+  "addCurrentSubdomain": {
+    "message": "Додати піддомен у whitelist"
+  },
+  "contextAddDomain": {
+    "message": "Додати домен у whitelist"
+  },
+  "contextRemoveDomain": {
+    "message": "Видалити домен із whitelist"
+  },
+  "contextRemoveCookies": {
+    "message": "Видалити cookies цієї вкладки"
+  },
+  "toggleCurrentSiteCommand": {
+    "message": "Додати або видалити поточний сайт у whitelist Cookie Knight"
+  },
+  "invalidPattern": {
+    "message": "Введіть коректний домен або wildcard-шаблон."
+  },
+  "removeItem": {
+    "message": "Видалити"
+  }
+}

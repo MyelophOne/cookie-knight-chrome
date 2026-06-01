@@ -1,0 +1,195 @@
+{
+  "extensionName": {
+    "message": "Cookie Knight"
+  },
+  "extensionDescription": {
+    "message": "Cookie Knight: 원치 않는 cookies 제거"
+  },
+  "popupTitle": {
+    "message": "Cookie Knight"
+  },
+  "protected": {
+    "message": "화이트리스트됨"
+  },
+  "notProtected": {
+    "message": "자동 삭제 활성화"
+  },
+  "cookiesActive": {
+    "message": "활성 cookies $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "noCookies": {
+    "message": "활성 cookies 없음"
+  },
+  "cookies": {
+    "message": "Cookies"
+  },
+  "emptyCookies": {
+    "message": "이 탭에는 cookies가 없습니다."
+  },
+  "removeCookie": {
+    "message": "Cookie 삭제"
+  },
+  "removeAllCookies": {
+    "message": "모두 삭제"
+  },
+  "unnamedCookie": {
+    "message": "이름 없는 cookie"
+  },
+  "emptyValue": {
+    "message": "빈 값"
+  },
+  "statsTotalCookiesRemoved": {
+    "message": "설치 후 삭제된 cookies: $COUNT$개",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "초기화"
+  },
+  "backup": {
+    "message": "백업"
+  },
+  "exportSettings": {
+    "message": "설정 내보내기"
+  },
+  "importSettings": {
+    "message": "설정 가져오기"
+  },
+  "exportWhitelist": {
+    "message": "화이트리스트 내보내기"
+  },
+  "importWhitelist": {
+    "message": "화이트리스트 가져오기"
+  },
+  "siteDomain": {
+    "message": "도메인"
+  },
+  "subdomain": {
+    "message": "하위 도메인"
+  },
+  "add": {
+    "message": "추가"
+  },
+  "remove": {
+    "message": "삭제"
+  },
+  "manualAdd": {
+    "message": "수동 추가"
+  },
+  "addDomainToWhitelist": {
+    "message": "도메인을 화이트리스트에 추가"
+  },
+  "removeDomainFromWhitelist": {
+    "message": "도메인을 화이트리스트에서 삭제"
+  },
+  "manualPlaceholder": {
+    "message": "example.com 또는 *.example.com"
+  },
+  "whitelist": {
+    "message": "화이트리스트"
+  },
+  "emptyWhitelist": {
+    "message": "저장된 도메인이 아직 없습니다."
+  },
+  "openOptions": {
+    "message": "설정 열기"
+  },
+  "settingsTitle": {
+    "message": "설정"
+  },
+  "settingsSubtitle": {
+    "message": "Cookie Knight가 cookies, storage, 화이트리스트 규칙, 툴바 버튼을 처리하는 방식을 선택하세요."
+  },
+  "iconTheme": {
+    "message": "툴바 아이콘"
+  },
+  "light": {
+    "message": "라이트"
+  },
+  "dark": {
+    "message": "다크"
+  },
+  "contextMenu": {
+    "message": "컨텍스트 메뉴"
+  },
+  "contextMenuDescription": {
+    "message": "현재 도메인을 화이트리스트에 추가하는 메뉴 항목을 표시합니다."
+  },
+  "quickAction": {
+    "message": "툴바 클릭"
+  },
+  "quickActionDescription": {
+    "message": "팝업을 열지 않고 현재 사이트를 화이트리스트에 즉시 추가하거나 삭제합니다."
+  },
+  "clearLocalStorage": {
+    "message": "LocalStorage 삭제"
+  },
+  "clearLocalStorageDescription": {
+    "message": "해당 사이트의 cookies와 함께 localStorage를 삭제합니다."
+  },
+  "clearCookiesOnStartup": {
+    "message": "시작 시 삭제"
+  },
+  "clearCookiesOnStartupDescription": {
+    "message": "Chrome 시작 시 화이트리스트에 없는 cookies를 삭제합니다."
+  },
+  "removePartitionedCookies": {
+    "message": "관련 격리 cookies"
+  },
+  "removePartitionedCookiesDescription": {
+    "message": "화이트리스트에 없는 사이트와 연결된 타사 partitioned cookies도 삭제합니다."
+  },
+  "cleanupDelay": {
+    "message": "삭제 지연"
+  },
+  "cleanupDelayDescription": {
+    "message": "사이트의 마지막 탭이 닫힌 뒤 cookies를 삭제하기 전 대기 시간입니다."
+  },
+  "seconds": {
+    "message": "초"
+  },
+  "enabled": {
+    "message": "활성화"
+  },
+  "disabled": {
+    "message": "비활성화"
+  },
+  "save": {
+    "message": "저장"
+  },
+  "saved": {
+    "message": "저장됨"
+  },
+  "addCurrentDomain": {
+    "message": "도메인을 화이트리스트에 추가"
+  },
+  "addCurrentSubdomain": {
+    "message": "하위 도메인을 화이트리스트에 추가"
+  },
+  "contextAddDomain": {
+    "message": "도메인을 화이트리스트에 추가"
+  },
+  "contextRemoveDomain": {
+    "message": "도메인을 화이트리스트에서 삭제"
+  },
+  "contextRemoveCookies": {
+    "message": "이 탭의 cookies 삭제"
+  },
+  "toggleCurrentSiteCommand": {
+    "message": "현재 사이트를 Cookie Knight 화이트리스트에 추가하거나 삭제"
+  },
+  "invalidPattern": {
+    "message": "유효한 도메인 또는 와일드카드 패턴을 입력하세요."
+  },
+  "removeItem": {
+    "message": "삭제"
+  }
+}

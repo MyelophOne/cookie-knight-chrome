@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cookie Knight</title>
+    <link rel="stylesheet" href="styles/app.css">
+  </head>
+  <body class="popup-shell" data-page="popup">
+    <main class="popup">
+      <header class="topbar">
+        <div class="brand">
+          <img src="icons/icon-light-32.svg" alt="" class="brand-icon">
+          <div>
+            <h1>
+              <span data-i18n="popupTitle">Cookie Knight</span>
+              <a href="https://github.com/MyelophOne" target="_blank" rel="noreferrer">by MyelophOne</a>
+            </h1>
+            <p data-role="host">...</p>
+          </div>
+        </div>
+        <button class="icon-button" type="button" data-action="open-options" data-i18n-title="openOptions">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M19.4 13.5c.1-.5.1-1 .1-1.5s0-1-.1-1.5l2-1.5-2-3.5-2.4 1a8 8 0 0 0-2.6-1.5L14 2h-4l-.4 3a8 8 0 0 0-2.6 1.5l-2.4-1-2 3.5 2 1.5A9 9 0 0 0 4.5 12c0 .5 0 1 .1 1.5l-2 1.5 2 3.5 2.4-1a8 8 0 0 0 2.6 1.5l.4 3h4l.4-3a8 8 0 0 0 2.6-1.5l2.4 1 2-3.5-2-1.5ZM12 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"/>
+          </svg>
+        </button>
+      </header>
+
+      <section class="hero-panel">
+        <div>
+          <p class="eyebrow" data-role="status">...</p>
+          <strong data-role="cookie-count">...</strong>
+        </div>
+        <svg viewBox="0 0 80 80" aria-hidden="true" class="hero-mark">
+          <path d="M40 10c-17 0-30 13-30 30s13 30 30 30c15 0 28-11 30-26-8 1-14-5-13-13-8 1-14-5-13-13-1-5-2-8-4-8Z"/>
+          <path d="M30 34h.1M38 52h.1M52 42h.1" class="hero-mark-line"/>
+        </svg>
+      </section>
+
+      <section class="allow-panel">
+        <form class="manual-form compact" data-action="manual-add">
+          <label>
+            <span data-role="allow-label">Add domain to whitelist</span>
+            <input type="text" autocomplete="off" data-i18n-placeholder="manualPlaceholder">
+          </label>
+          <button type="submit" class="primary-button" data-role="allow-submit">Add</button>
+        </form>
+      </section>
+
+      <section class="list-section">
+        <div class="section-title">
+          <h2 data-i18n="cookies">Cookies</h2>
+          <button class="text-button" type="button" data-action="remove-all-cookies" data-i18n="removeAllCookies">Remove all</button>
+        </div>
+        <ul class="cookie-list" data-role="cookies"></ul>
+      </section>
+    </main>
+    <script type="module" src="src/ui.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,195 @@
+{
+  "extensionName": {
+    "message": "Cookie Knight"
+  },
+  "extensionDescription": {
+    "message": "Cookie Knight: 移除不需要的 cookies"
+  },
+  "popupTitle": {
+    "message": "Cookie Knight"
+  },
+  "protected": {
+    "message": "已加入白名单"
+  },
+  "notProtected": {
+    "message": "自动清理已启用"
+  },
+  "cookiesActive": {
+    "message": "$COUNT$ 个活动 cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "noCookies": {
+    "message": "没有活动 cookies"
+  },
+  "cookies": {
+    "message": "Cookies"
+  },
+  "emptyCookies": {
+    "message": "此标签页没有 cookies。"
+  },
+  "removeCookie": {
+    "message": "删除 cookie"
+  },
+  "removeAllCookies": {
+    "message": "全部删除"
+  },
+  "unnamedCookie": {
+    "message": "未命名 cookie"
+  },
+  "emptyValue": {
+    "message": "空值"
+  },
+  "statsTotalCookiesRemoved": {
+    "message": "安装以来已删除 $COUNT$ 个 cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "重置"
+  },
+  "backup": {
+    "message": "备份"
+  },
+  "exportSettings": {
+    "message": "导出设置"
+  },
+  "importSettings": {
+    "message": "导入设置"
+  },
+  "exportWhitelist": {
+    "message": "导出白名单"
+  },
+  "importWhitelist": {
+    "message": "导入白名单"
+  },
+  "siteDomain": {
+    "message": "域名"
+  },
+  "subdomain": {
+    "message": "子域名"
+  },
+  "add": {
+    "message": "添加"
+  },
+  "remove": {
+    "message": "删除"
+  },
+  "manualAdd": {
+    "message": "手动添加"
+  },
+  "addDomainToWhitelist": {
+    "message": "将域名加入白名单"
+  },
+  "removeDomainFromWhitelist": {
+    "message": "从白名单删除域名"
+  },
+  "manualPlaceholder": {
+    "message": "example.com 或 *.example.com"
+  },
+  "whitelist": {
+    "message": "白名单"
+  },
+  "emptyWhitelist": {
+    "message": "还没有保存的域名。"
+  },
+  "openOptions": {
+    "message": "打开设置"
+  },
+  "settingsTitle": {
+    "message": "设置"
+  },
+  "settingsSubtitle": {
+    "message": "选择 Cookie Knight 如何处理 cookies、storage、白名单规则和工具栏按钮。"
+  },
+  "iconTheme": {
+    "message": "工具栏图标"
+  },
+  "light": {
+    "message": "浅色"
+  },
+  "dark": {
+    "message": "深色"
+  },
+  "contextMenu": {
+    "message": "右键菜单"
+  },
+  "contextMenuDescription": {
+    "message": "显示用于将当前域名加入白名单的页面菜单项。"
+  },
+  "quickAction": {
+    "message": "点击图标"
+  },
+  "quickActionDescription": {
+    "message": "无需打开弹窗，立即将当前网站加入或移出白名单。"
+  },
+  "clearLocalStorage": {
+    "message": "清理 LocalStorage"
+  },
+  "clearLocalStorageDescription": {
+    "message": "清理受影响网站的 cookies 时同时清理 localStorage。"
+  },
+  "clearCookiesOnStartup": {
+    "message": "启动时清理"
+  },
+  "clearCookiesOnStartupDescription": {
+    "message": "Chrome 启动时删除不在白名单保护范围内的 cookies。"
+  },
+  "removePartitionedCookies": {
+    "message": "相关隔离 cookies"
+  },
+  "removePartitionedCookiesDescription": {
+    "message": "同时删除与非白名单网站关联的第三方 partitioned cookies。"
+  },
+  "cleanupDelay": {
+    "message": "清理延迟"
+  },
+  "cleanupDelayDescription": {
+    "message": "网站最后一个标签页关闭后，等待多久再删除 cookies。"
+  },
+  "seconds": {
+    "message": "秒"
+  },
+  "enabled": {
+    "message": "已启用"
+  },
+  "disabled": {
+    "message": "已禁用"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "saved": {
+    "message": "已保存"
+  },
+  "addCurrentDomain": {
+    "message": "将域名加入白名单"
+  },
+  "addCurrentSubdomain": {
+    "message": "将子域名加入白名单"
+  },
+  "contextAddDomain": {
+    "message": "将域名加入白名单"
+  },
+  "contextRemoveDomain": {
+    "message": "从白名单删除域名"
+  },
+  "contextRemoveCookies": {
+    "message": "删除此标签页的 cookies"
+  },
+  "toggleCurrentSiteCommand": {
+    "message": "将当前网站加入或移出 Cookie Knight 白名单"
+  },
+  "invalidPattern": {
+    "message": "请输入有效域名或通配符模式。"
+  },
+  "removeItem": {
+    "message": "删除"
+  }
+}

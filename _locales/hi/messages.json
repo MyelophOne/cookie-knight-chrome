@@ -1,0 +1,195 @@
+{
+  "extensionName": {
+    "message": "Cookie Knight"
+  },
+  "extensionDescription": {
+    "message": "Cookie Knight: अनचाही cookies हटाएं"
+  },
+  "popupTitle": {
+    "message": "Cookie Knight"
+  },
+  "protected": {
+    "message": "Whitelist में है"
+  },
+  "notProtected": {
+    "message": "Auto-clear चालू है"
+  },
+  "cookiesActive": {
+    "message": "$COUNT$ सक्रिय cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "noCookies": {
+    "message": "कोई सक्रिय cookies नहीं"
+  },
+  "cookies": {
+    "message": "Cookies"
+  },
+  "emptyCookies": {
+    "message": "इस टैब में cookies नहीं हैं."
+  },
+  "removeCookie": {
+    "message": "Cookie हटाएं"
+  },
+  "removeAllCookies": {
+    "message": "सभी हटाएं"
+  },
+  "unnamedCookie": {
+    "message": "बिना नाम की cookie"
+  },
+  "emptyValue": {
+    "message": "खाली मान"
+  },
+  "statsTotalCookiesRemoved": {
+    "message": "इंस्टॉल के बाद हटाई गई cookies: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "रीसेट"
+  },
+  "backup": {
+    "message": "बैकअप"
+  },
+  "exportSettings": {
+    "message": "सेटिंग्स export करें"
+  },
+  "importSettings": {
+    "message": "सेटिंग्स import करें"
+  },
+  "exportWhitelist": {
+    "message": "Whitelist export करें"
+  },
+  "importWhitelist": {
+    "message": "Whitelist import करें"
+  },
+  "siteDomain": {
+    "message": "डोमेन"
+  },
+  "subdomain": {
+    "message": "सबडोमेन"
+  },
+  "add": {
+    "message": "जोड़ें"
+  },
+  "remove": {
+    "message": "हटाएं"
+  },
+  "manualAdd": {
+    "message": "मैन्युअली जोड़ें"
+  },
+  "addDomainToWhitelist": {
+    "message": "डोमेन को whitelist में जोड़ें"
+  },
+  "removeDomainFromWhitelist": {
+    "message": "डोमेन को whitelist से हटाएं"
+  },
+  "manualPlaceholder": {
+    "message": "example.com या *.example.com"
+  },
+  "whitelist": {
+    "message": "Whitelist"
+  },
+  "emptyWhitelist": {
+    "message": "अभी कोई डोमेन सेव नहीं है."
+  },
+  "openOptions": {
+    "message": "सेटिंग्स खोलें"
+  },
+  "settingsTitle": {
+    "message": "सेटिंग्स"
+  },
+  "settingsSubtitle": {
+    "message": "चुनें कि Cookie Knight cookies, storage, whitelist नियमों और toolbar बटन को कैसे संभाले."
+  },
+  "iconTheme": {
+    "message": "Toolbar आइकन"
+  },
+  "light": {
+    "message": "Light"
+  },
+  "dark": {
+    "message": "Dark"
+  },
+  "contextMenu": {
+    "message": "Context menu"
+  },
+  "contextMenuDescription": {
+    "message": "मौजूदा डोमेन को whitelist में जोड़ने के लिए पेज मेनू आइटम दिखाएं."
+  },
+  "quickAction": {
+    "message": "Toolbar click"
+  },
+  "quickActionDescription": {
+    "message": "Popup खोले बिना मौजूदा साइट को तुरंत whitelist में जोड़ें या हटाएं."
+  },
+  "clearLocalStorage": {
+    "message": "LocalStorage cleanup"
+  },
+  "clearLocalStorageDescription": {
+    "message": "प्रभावित साइट के cookies के साथ localStorage भी साफ करें."
+  },
+  "clearCookiesOnStartup": {
+    "message": "Startup cleanup"
+  },
+  "clearCookiesOnStartupDescription": {
+    "message": "Chrome शुरू होने पर whitelist से बाहर की cookies हटाएं."
+  },
+  "removePartitionedCookies": {
+    "message": "संबंधित isolated cookies"
+  },
+  "removePartitionedCookiesDescription": {
+    "message": "Whitelist में नहीं आने वाली साइट से जुड़ी third-party partitioned cookies भी हटाएं."
+  },
+  "cleanupDelay": {
+    "message": "Cleanup delay"
+  },
+  "cleanupDelayDescription": {
+    "message": "किसी साइट का आखिरी टैब बंद होने के बाद cookies हटाने से पहले प्रतीक्षा समय."
+  },
+  "seconds": {
+    "message": "सेकंड"
+  },
+  "enabled": {
+    "message": "चालू"
+  },
+  "disabled": {
+    "message": "बंद"
+  },
+  "save": {
+    "message": "सेव करें"
+  },
+  "saved": {
+    "message": "सेव हो गया"
+  },
+  "addCurrentDomain": {
+    "message": "डोमेन को whitelist में जोड़ें"
+  },
+  "addCurrentSubdomain": {
+    "message": "सबडोमेन को whitelist में जोड़ें"
+  },
+  "contextAddDomain": {
+    "message": "डोमेन को whitelist में जोड़ें"
+  },
+  "contextRemoveDomain": {
+    "message": "डोमेन को whitelist से हटाएं"
+  },
+  "contextRemoveCookies": {
+    "message": "इस टैब की cookies हटाएं"
+  },
+  "toggleCurrentSiteCommand": {
+    "message": "मौजूदा साइट को Cookie Knight whitelist में जोड़ें या हटाएं"
+  },
+  "invalidPattern": {
+    "message": "मान्य डोमेन या wildcard pattern दर्ज करें."
+  },
+  "removeItem": {
+    "message": "हटाएं"
+  }
+}

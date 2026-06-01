@@ -1,0 +1,195 @@
+{
+  "extensionName": {
+    "message": "Cookie Knight"
+  },
+  "extensionDescription": {
+    "message": "Cookie Knight: Unerwünschte Cookies entfernen"
+  },
+  "popupTitle": {
+    "message": "Cookie Knight"
+  },
+  "protected": {
+    "message": "Auf der Whitelist"
+  },
+  "notProtected": {
+    "message": "Automatisches Löschen aktiv"
+  },
+  "cookiesActive": {
+    "message": "$COUNT$ aktive Cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "noCookies": {
+    "message": "Keine aktiven Cookies"
+  },
+  "cookies": {
+    "message": "Cookies"
+  },
+  "emptyCookies": {
+    "message": "Dieser Tab hat keine Cookies."
+  },
+  "removeCookie": {
+    "message": "Cookie entfernen"
+  },
+  "removeAllCookies": {
+    "message": "Alle entfernen"
+  },
+  "unnamedCookie": {
+    "message": "Unbenanntes Cookie"
+  },
+  "emptyValue": {
+    "message": "Leerer Wert"
+  },
+  "statsTotalCookiesRemoved": {
+    "message": "$COUNT$ Cookies seit der Installation entfernt",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "Zurücksetzen"
+  },
+  "backup": {
+    "message": "Sicherung"
+  },
+  "exportSettings": {
+    "message": "Einstellungen exportieren"
+  },
+  "importSettings": {
+    "message": "Einstellungen importieren"
+  },
+  "exportWhitelist": {
+    "message": "Whitelist exportieren"
+  },
+  "importWhitelist": {
+    "message": "Whitelist importieren"
+  },
+  "siteDomain": {
+    "message": "Domain"
+  },
+  "subdomain": {
+    "message": "Subdomain"
+  },
+  "add": {
+    "message": "Hinzufügen"
+  },
+  "remove": {
+    "message": "Entfernen"
+  },
+  "manualAdd": {
+    "message": "Manuell hinzufügen"
+  },
+  "addDomainToWhitelist": {
+    "message": "Domain zur Whitelist hinzufügen"
+  },
+  "removeDomainFromWhitelist": {
+    "message": "Domain aus der Whitelist entfernen"
+  },
+  "manualPlaceholder": {
+    "message": "example.com oder *.example.com"
+  },
+  "whitelist": {
+    "message": "Whitelist"
+  },
+  "emptyWhitelist": {
+    "message": "Noch keine gespeicherten Domains."
+  },
+  "openOptions": {
+    "message": "Einstellungen öffnen"
+  },
+  "settingsTitle": {
+    "message": "Einstellungen"
+  },
+  "settingsSubtitle": {
+    "message": "Lege fest, wie Cookie Knight Cookies, Speicher, Whitelist-Regeln und die Symbolleisten-Schaltfläche behandelt."
+  },
+  "iconTheme": {
+    "message": "Symbolleisten-Icon"
+  },
+  "light": {
+    "message": "Hell"
+  },
+  "dark": {
+    "message": "Dunkel"
+  },
+  "contextMenu": {
+    "message": "Kontextmenü"
+  },
+  "contextMenuDescription": {
+    "message": "Menüpunkt zum Hinzufügen der aktuellen Domain zur Whitelist anzeigen."
+  },
+  "quickAction": {
+    "message": "Klick auf Symbolleiste"
+  },
+  "quickActionDescription": {
+    "message": "Aktuelle Website sofort zur Whitelist hinzufügen oder daraus entfernen, statt das Popup zu öffnen."
+  },
+  "clearLocalStorage": {
+    "message": "LocalStorage löschen"
+  },
+  "clearLocalStorageDescription": {
+    "message": "LocalStorage zusammen mit Cookies der betroffenen Website löschen."
+  },
+  "clearCookiesOnStartup": {
+    "message": "Bereinigung beim Start"
+  },
+  "clearCookiesOnStartupDescription": {
+    "message": "Cookies entfernen, die beim Chrome-Start nicht von der Whitelist abgedeckt sind."
+  },
+  "removePartitionedCookies": {
+    "message": "Zugehörige isolierte Cookies"
+  },
+  "removePartitionedCookiesDescription": {
+    "message": "Partitionierte Drittanbieter-Cookies entfernen, die mit einer nicht whitelisted Website verbunden sind."
+  },
+  "cleanupDelay": {
+    "message": "Bereinigungsverzögerung"
+  },
+  "cleanupDelayDescription": {
+    "message": "Wartezeit vor dem Löschen von Cookies nach dem Schließen des letzten Tabs einer Website."
+  },
+  "seconds": {
+    "message": "Sekunden"
+  },
+  "enabled": {
+    "message": "Aktiviert"
+  },
+  "disabled": {
+    "message": "Deaktiviert"
+  },
+  "save": {
+    "message": "Speichern"
+  },
+  "saved": {
+    "message": "Gespeichert"
+  },
+  "addCurrentDomain": {
+    "message": "Domain auf Whitelist setzen"
+  },
+  "addCurrentSubdomain": {
+    "message": "Subdomain auf Whitelist setzen"
+  },
+  "contextAddDomain": {
+    "message": "Domain zur Whitelist hinzufügen"
+  },
+  "contextRemoveDomain": {
+    "message": "Domain aus der Whitelist entfernen"
+  },
+  "contextRemoveCookies": {
+    "message": "Cookies für diesen Tab entfernen"
+  },
+  "toggleCurrentSiteCommand": {
+    "message": "Aktuelle Website in der Cookie Knight-Whitelist hinzufügen oder entfernen"
+  },
+  "invalidPattern": {
+    "message": "Gib eine gültige Domain oder ein Wildcard-Muster ein."
+  },
+  "removeItem": {
+    "message": "Entfernen"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "extensionName": {
+    "message": "Cookie Knight"
+  },
+  "extensionDescription": {
+    "message": "Cookie Knight: 不要な cookies を削除"
+  },
+  "popupTitle": {
+    "message": "Cookie Knight"
+  },
+  "protected": {
+    "message": "ホワイトリスト済み"
+  },
+  "notProtected": {
+    "message": "自動削除が有効"
+  },
+  "cookiesActive": {
+    "message": "$COUNT$ 個の有効な cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "noCookies": {
+    "message": "有効な cookies はありません"
+  },
+  "cookies": {
+    "message": "Cookies"
+  },
+  "emptyCookies": {
+    "message": "このタブには cookies がありません。"
+  },
+  "removeCookie": {
+    "message": "Cookie を削除"
+  },
+  "removeAllCookies": {
+    "message": "すべて削除"
+  },
+  "unnamedCookie": {
+    "message": "名前のない cookie"
+  },
+  "emptyValue": {
+    "message": "空の値"
+  },
+  "statsTotalCookiesRemoved": {
+    "message": "インストール以降に削除された cookies: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "リセット"
+  },
+  "backup": {
+    "message": "バックアップ"
+  },
+  "exportSettings": {
+    "message": "設定をエクスポート"
+  },
+  "importSettings": {
+    "message": "設定をインポート"
+  },
+  "exportWhitelist": {
+    "message": "ホワイトリストをエクスポート"
+  },
+  "importWhitelist": {
+    "message": "ホワイトリストをインポート"
+  },
+  "siteDomain": {
+    "message": "ドメイン"
+  },
+  "subdomain": {
+    "message": "サブドメイン"
+  },
+  "add": {
+    "message": "追加"
+  },
+  "remove": {
+    "message": "削除"
+  },
+  "manualAdd": {
+    "message": "手動で追加"
+  },
+  "addDomainToWhitelist": {
+    "message": "ドメインをホワイトリストに追加"
+  },
+  "removeDomainFromWhitelist": {
+    "message": "ドメインをホワイトリストから削除"
+  },
+  "manualPlaceholder": {
+    "message": "example.com または *.example.com"
+  },
+  "whitelist": {
+    "message": "ホワイトリスト"
+  },
+  "emptyWhitelist": {
+    "message": "保存されたドメインはまだありません。"
+  },
+  "openOptions": {
+    "message": "設定を開く"
+  },
+  "settingsTitle": {
+    "message": "設定"
+  },
+  "settingsSubtitle": {
+    "message": "Cookie Knight による cookies、storage、ホワイトリストルール、ツールバーボタンの動作を設定します。"
+  },
+  "iconTheme": {
+    "message": "ツールバーアイコン"
+  },
+  "light": {
+    "message": "ライト"
+  },
+  "dark": {
+    "message": "ダーク"
+  },
+  "contextMenu": {
+    "message": "コンテキストメニュー"
+  },
+  "contextMenuDescription": {
+    "message": "現在のドメインをホワイトリストに追加するメニュー項目を表示します。"
+  },
+  "quickAction": {
+    "message": "アイコンクリック"
+  },
+  "quickActionDescription": {
+    "message": "ポップアップを開かずに、現在のサイトをホワイトリストへ追加または削除します。"
+  },
+  "clearLocalStorage": {
+    "message": "LocalStorage の削除"
+  },
+  "clearLocalStorageDescription": {
+    "message": "対象サイトの cookies と一緒に localStorage を削除します。"
+  },
+  "clearCookiesOnStartup": {
+    "message": "起動時の削除"
+  },
+  "clearCookiesOnStartupDescription": {
+    "message": "Chrome 起動時にホワイトリスト対象外の cookies を削除します。"
+  },
+  "removePartitionedCookies": {
+    "message": "関連する分離 cookies"
+  },
+  "removePartitionedCookiesDescription": {
+    "message": "ホワイトリスト外のサイトに関連するサードパーティの partitioned cookies も削除します。"
+  },
+  "cleanupDelay": {
+    "message": "削除の遅延"
+  },
+  "cleanupDelayDescription": {
+    "message": "サイトの最後のタブを閉じた後、cookies を削除するまでの待機時間です。"
+  },
+  "seconds": {
+    "message": "秒"
+  },
+  "enabled": {
+    "message": "有効"
+  },
+  "disabled": {
+    "message": "無効"
+  },
+  "save": {
+    "message": "保存"
+  },
+  "saved": {
+    "message": "保存しました"
+  },
+  "addCurrentDomain": {
+    "message": "ドメインをホワイトリストに追加"
+  },
+  "addCurrentSubdomain": {
+    "message": "サブドメインをホワイトリストに追加"
+  },
+  "contextAddDomain": {
+    "message": "ドメインをホワイトリストに追加"
+  },
+  "contextRemoveDomain": {
+    "message": "ドメインをホワイトリストから削除"
+  },
+  "contextRemoveCookies": {
+    "message": "このタブの cookies を削除"
+  },
+  "toggleCurrentSiteCommand": {
+    "message": "現在のサイトを Cookie Knight のホワイトリストに追加または削除"
+  },
+  "invalidPattern": {
+    "message": "有効なドメインまたはワイルドカードパターンを入力してください。"
+  },
+  "removeItem": {
+    "message": "削除"
+  }
+}

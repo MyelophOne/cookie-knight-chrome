@@ -1,0 +1,195 @@
+{
+  "extensionName": {
+    "message": "Cookie Knight"
+  },
+  "extensionDescription": {
+    "message": "Cookie Knight: Удаляйте нежелательные cookies"
+  },
+  "popupTitle": {
+    "message": "Cookie Knight"
+  },
+  "protected": {
+    "message": "В whitelist"
+  },
+  "notProtected": {
+    "message": "Автоочистка включена"
+  },
+  "cookiesActive": {
+    "message": "$COUNT$ активных cookies",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "noCookies": {
+    "message": "Нет активных cookies"
+  },
+  "cookies": {
+    "message": "Cookies"
+  },
+  "emptyCookies": {
+    "message": "У этой вкладки нет cookies."
+  },
+  "removeCookie": {
+    "message": "Удалить cookie"
+  },
+  "removeAllCookies": {
+    "message": "Удалить все"
+  },
+  "unnamedCookie": {
+    "message": "Cookie без имени"
+  },
+  "emptyValue": {
+    "message": "Пустое значение"
+  },
+  "statsTotalCookiesRemoved": {
+    "message": "Удалено cookies за всё время: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "resetStats": {
+    "message": "Очистить"
+  },
+  "backup": {
+    "message": "Резервная копия"
+  },
+  "exportSettings": {
+    "message": "Экспорт настроек"
+  },
+  "importSettings": {
+    "message": "Импорт настроек"
+  },
+  "exportWhitelist": {
+    "message": "Экспорт whitelist"
+  },
+  "importWhitelist": {
+    "message": "Импорт whitelist"
+  },
+  "siteDomain": {
+    "message": "Домен"
+  },
+  "subdomain": {
+    "message": "Поддомен"
+  },
+  "add": {
+    "message": "Добавить"
+  },
+  "remove": {
+    "message": "Удалить"
+  },
+  "manualAdd": {
+    "message": "Добавить вручную"
+  },
+  "addDomainToWhitelist": {
+    "message": "Добавить домен в whitelist"
+  },
+  "removeDomainFromWhitelist": {
+    "message": "Удалить домен из whitelist"
+  },
+  "manualPlaceholder": {
+    "message": "example.com или *.example.com"
+  },
+  "whitelist": {
+    "message": "Whitelist"
+  },
+  "emptyWhitelist": {
+    "message": "Пока нет сохранённых доменов."
+  },
+  "openOptions": {
+    "message": "Открыть настройки"
+  },
+  "settingsTitle": {
+    "message": "Настройки"
+  },
+  "settingsSubtitle": {
+    "message": "Настройте правила cookies, storage, whitelist и поведение кнопки на панели."
+  },
+  "iconTheme": {
+    "message": "Иконка на панели"
+  },
+  "light": {
+    "message": "Светлая"
+  },
+  "dark": {
+    "message": "Тёмная"
+  },
+  "contextMenu": {
+    "message": "Контекстное меню"
+  },
+  "contextMenuDescription": {
+    "message": "Показывать пункт меню страницы для добавления текущего домена в whitelist."
+  },
+  "quickAction": {
+    "message": "Клик по иконке"
+  },
+  "quickActionDescription": {
+    "message": "Сразу добавлять или удалять текущий сайт из whitelist, не открывая окошко."
+  },
+  "clearLocalStorage": {
+    "message": "Очистка LocalStorage"
+  },
+  "clearLocalStorageDescription": {
+    "message": "Очищать localStorage вместе с cookies для затронутого сайта."
+  },
+  "clearCookiesOnStartup": {
+    "message": "Очистка при запуске"
+  },
+  "clearCookiesOnStartupDescription": {
+    "message": "Удалять cookies не из whitelist при запуске Chrome."
+  },
+  "removePartitionedCookies": {
+    "message": "Связанные изолированные cookies"
+  },
+  "removePartitionedCookiesDescription": {
+    "message": "Удалять сторонние partitioned cookies, привязанные к сайту не из whitelist."
+  },
+  "cleanupDelay": {
+    "message": "Задержка очистки"
+  },
+  "cleanupDelayDescription": {
+    "message": "Сколько ждать перед удалением cookies после закрытия последней вкладки сайта."
+  },
+  "seconds": {
+    "message": "секунд"
+  },
+  "enabled": {
+    "message": "Включено"
+  },
+  "disabled": {
+    "message": "Выключено"
+  },
+  "save": {
+    "message": "Сохранить"
+  },
+  "saved": {
+    "message": "Сохранено"
+  },
+  "addCurrentDomain": {
+    "message": "Добавить домен"
+  },
+  "addCurrentSubdomain": {
+    "message": "Добавить поддомен"
+  },
+  "contextAddDomain": {
+    "message": "Добавить домен в whitelist"
+  },
+  "contextRemoveDomain": {
+    "message": "Удалить домен из whitelist"
+  },
+  "contextRemoveCookies": {
+    "message": "Удалить cookies этой вкладки"
+  },
+  "toggleCurrentSiteCommand": {
+    "message": "Добавить или удалить текущий сайт в whitelist Cookie Knight"
+  },
+  "invalidPattern": {
+    "message": "Введите корректный домен или wildcard-шаблон."
+  },
+  "removeItem": {
+    "message": "Удалить"
+  }
+}

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cookie Knight Settings</title>
+    <link rel="stylesheet" href="styles/app.css">
+  </head>
+  <body class="settings-shell" data-page="options">
+    <main class="settings">
+      <header class="settings-header">
+        <div class="brand">
+          <img src="icons/icon-light-48.svg" alt="" class="brand-icon large">
+          <div>
+            <h1 data-i18n="settingsTitle">Settings</h1>
+            <p data-i18n="settingsSubtitle">Tune Cookie Knight for the way you browse.</p>
+          </div>
+        </div>
+        <a class="coffee-link" href="https://www.buymeacoffee.com/aleksivanou?utm_source=cookieflow" target="_blank" rel="noreferrer">
+          <img src="assets/default-yellow.png" alt="Buy Me a Coffee">
+        </a>
+      </header>
+
+      <section class="stats-line">
+        <span data-role="stats-total">...</span>
+        <button type="button" data-action="reset-stats" data-i18n="resetStats">Reset</button>
+      </section>
+
+      <section class="settings-grid">
+        <article class="setting-row">
+          <div>
+            <h2 data-i18n="iconTheme">Toolbar icon</h2>
+          </div>
+          <div class="segmented" role="group">
+            <button type="button" data-setting="iconTheme" data-value="light">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3C7 3 3 7 3 12s4 9 9 9 9-4 9-9c-2 0-3.5-1.5-3.5-3.5C16 8.5 14.7 7.2 14.7 5.8 13.2 5.8 12 4.5 12 3Z"/><path d="M8.5 9h.1M11 15h.1M15 12h.1"/></svg>
+              <span data-i18n="light">Light</span>
+            </button>
+            <button type="button" data-setting="iconTheme" data-value="dark">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3C7 3 3 7 3 12s4 9 9 9 9-4 9-9c-2 0-3.5-1.5-3.5-3.5C16 8.5 14.7 7.2 14.7 5.8 13.2 5.8 12 4.5 12 3Z"/><path d="M8.5 9h.1M11 15h.1M15 12h.1"/></svg>
+              <span data-i18n="dark">Dark</span>
+            </button>
+          </div>
+        </article>
+
+        <article class="setting-row">
+          <div>
+            <h2 data-i18n="contextMenu">Context menu</h2>
+            <p data-i18n="contextMenuDescription">Show a page menu item for adding the current domain to the whitelist.</p>
+          </div>
+          <label class="switch">
+            <input type="checkbox" data-setting="contextMenuEnabled">
+            <span></span>
+          </label>
+        </article>
+
+        <article class="setting-row">
+          <div>
+            <h2 data-i18n="quickAction">Toolbar click</h2>
+            <p data-i18n="quickActionDescription">Add the current site to the whitelist immediately instead of opening the popup.</p>
+          </div>
+          <label class="switch">
+            <input type="checkbox" data-setting="quickActionEnabled">
+            <span></span>
+          </label>
+        </article>
+
+        <article class="setting-row">
+          <div>
+            <h2 data-i18n="clearLocalStorage">LocalStorage cleanup</h2>
+            <p data-i18n="clearLocalStorageDescription">Clear localStorage together with cookies for the affected site.</p>
+          </div>
+          <label class="switch">
+            <input type="checkbox" data-setting="clearLocalStorage">
+            <span></span>
+          </label>
+        </article>
+
+        <article class="setting-row">
+          <div>
+            <h2 data-i18n="clearCookiesOnStartup">Startup cleanup</h2>
+            <p data-i18n="clearCookiesOnStartupDescription">Remove cookies that are not covered by the whitelist when Chrome starts.</p>
+          </div>
+          <label class="switch">
+            <input type="checkbox" data-setting="clearCookiesOnStartup">
+            <span></span>
+          </label>
+        </article>
+
+        <article class="setting-row">
+          <div>
+            <h2 data-i18n="removePartitionedCookies">Isolated cookies</h2>
+            <p data-i18n="removePartitionedCookiesDescription">Also remove partitioned cookies connected to a non-whitelisted site.</p>
+          </div>
+          <label class="switch">
+            <input type="checkbox" data-setting="removePartitionedCookies">
+            <span></span>
+          </label>
+        </article>
+
+        <article class="setting-row">
+          <div>
+            <h2 data-i18n="cleanupDelay">Cleanup delay</h2>
+            <p data-i18n="cleanupDelayDescription">Wait before clearing cookies after the last tab for a site closes.</p>
+          </div>
+          <label class="number-field">
+            <input type="number" min="0" max="86400" step="1" data-setting="cleanupDelaySeconds">
+            <span data-i18n="seconds">seconds</span>
+          </label>
+        </article>
+      </section>
+
+      <section class="manager backup-panel">
+        <div class="section-title">
+          <h2 data-i18n="backup">Backup</h2>
+        </div>
+        <div class="backup-actions">
+          <button type="button" class="secondary-button" data-action="export-settings" data-i18n="exportSettings">Export settings</button>
+          <button type="button" class="secondary-button" data-action="import-settings" data-i18n="importSettings">Import settings</button>
+          <button type="button" class="secondary-button" data-action="export-whitelist" data-i18n="exportWhitelist">Export whitelist</button>
+          <button type="button" class="secondary-button" data-action="import-whitelist" data-i18n="importWhitelist">Import whitelist</button>
+        </div>
+        <input type="file" accept="application/json,.json" hidden data-role="settings-file">
+        <input type="file" accept="application/json,.json" hidden data-role="whitelist-file">
+      </section>
+
+      <section class="manager">
+        <div class="section-title">
+          <h2 data-i18n="whitelist">Whitelist</h2>
+        </div>
+        <form class="manual-form wide" data-action="manual-add">
+          <label>
+            <span data-i18n="manualAdd">Manual add</span>
+            <input type="text" autocomplete="off" data-i18n-placeholder="manualPlaceholder">
+          </label>
+          <button type="submit" class="primary-button" data-i18n="add">Add</button>
+        </form>
+        <ul class="whitelist" data-role="whitelist"></ul>
+      </section>
+    </main>
+    <script type="module" src="src/ui.js"></script>
+  </body>
+</html>
+

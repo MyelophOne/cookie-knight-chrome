@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "1.0.0",
+  "default_locale": "en",
+  "author": "Aliaksandr Ivanou",
+  "minimum_chrome_version": "121",
+  "permissions": [
+    "alarms",
+    "cookies",
+    "storage"
+  ],
+  "optional_permissions": [
+    "browsingData",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "__MSG_extensionName__",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-light-16.png",
+      "32": "icons/icon-light-32.png",
+      "48": "icons/icon-light-48.png",
+      "128": "icons/icon-light-128.png"
+    }
+  },
+  "commands": {
+    "toggle-current-site-whitelist": {
+      "suggested_key": {
+        "default": "Alt+Shift+W"
+      },
+      "description": "__MSG_toggleCurrentSiteCommand__"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-light-16.png",
+    "32": "icons/icon-light-32.png",
+    "48": "icons/icon-light-48.png",
+    "128": "icons/icon-light-128.png"
+  },
+  "options_page": "options.html"
+}
+
